@@ -259,7 +259,7 @@ dd {
 	display: inline;
 	float: right;
 	line-height: 44px;
-	padding: 0 10px 0 5px;
+	padding: 0 20px 0 5px;
 	color: rgba(0,0,0,1);
 	font-weight:normal;
 	text-align: right;
@@ -318,5 +318,6 @@ li:last-child {
 {
 	p, ul { width:auto; margin-left: 0.5em; margin-right: 0.5em; }
 	dl { width: auto; }
+	dd { padding: 0 10px 0 5px; }
 	fieldset { width:100%; }
 }
