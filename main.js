@@ -7,7 +7,7 @@
  * Released under MIT license
  * http://miniapps.co.uk/license/
  * 
- * Version 1.3.1 - Last updated: November 18 2010
+ * Version 1.3.1
  * 
  */
 
@@ -237,6 +237,9 @@ function loaded() {
  
 		//hide the address bar if visible.
 		window.scrollTo(0,0);
+		
+		//hack to enable active pseudo selectors on buttons in mobile webkit
+		document.addEventListener("touchstart",new Function(),false);
 
 		//hide the mail list items button.
 		document.querySelector('#maillist').style.display = 'none';
